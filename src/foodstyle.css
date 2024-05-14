@@ -1,0 +1,239 @@
+@media screen and (orientation:landscape) {
+    img{
+    background-size: cover;
+    width: 100%;
+}
+.about-story{
+    display: flex;
+    justify-content: space-between;
+    margin:80px;
+}
+.about-story div{
+    width: 45%;
+}
+.about-story p{
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 30px;
+    color: gray;
+    line-height: 25px;
+}
+.about-story button{
+    background-color: rgb(249, 38, 38);
+    border: none;
+    padding: 2%;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.section{
+    margin: auto;
+    background-color: rgb(243, 243, 248);
+    height: 800px;
+    padding: 5%;
+   
+}
+.button-menu button{
+    background-color: white;
+    border:none;
+    font-weight:bold;
+    padding:3%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width:15%;
+    margin-left: 5%;
+    border-left: 1px solid rgb(243, 242, 242);
+}
+.button-menu button:hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
+   
+}
+
+.all-brakfast{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap:2%
+}
+.seprate{
+    width: 50%;
+}
+
+.sec2{
+    background-image: url(../public/img/gcover2.webp);
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+    margin-top: -20px;
+}
+.sec-shade{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+   
+}
+form{
+    background-color: white;
+    width: 30%;
+    padding: 3%;
+    border-radius: 15px;
+    height: 450px;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+.details{
+    width: 50%;
+    color: white;
+    margin-top: 15%;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    padding:3%;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content:space-around;
+     padding: 7%;
+    background-color: red;
+    color: white;
+}
+footer div{
+    width: 80%;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+footer h4{
+    margin-bottom: 10%;
+}
+.end{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding: 1%;
+    font-weight: bold;
+    font-size:20px;
+}
+}
+@media screen and (orientation: portrait) {
+    img{
+        background-size: cover;
+        width: 100%;
+    }
+    .about-story{
+        padding: 20px;
+    }
+    .about-story p{
+        text-align: justify;
+        margin-top: 20px;
+        color: gray;
+        line-height: 25px;
+    }
+    .about-story button{
+        background-color: rgb(249, 38, 38);
+        border: none;
+        padding: 2%;
+        color: white;
+        margin-bottom: 15px;
+    }.section{
+        margin: auto;
+        background-color: rgb(243, 243, 248);
+        padding: 5%;
+        padding-bottom: 40px;
+       
+    }
+    .button-menu button{
+        background-color: white;
+        border:none;
+        font-weight:bold;
+        padding:2%;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        font-size: 10px;
+        margin-left:3%;
+        height: 40px;
+        border-left: 1px solid rgb(243, 242, 242);
+    }
+    .button-menu button:hover{
+        background-color: red;
+        color: white;
+        transition: 1s;
+       
+    }
+    
+    
+    .sec2{
+        background-image: url(../public/img/gcover2.webp);
+        background-size: cover;
+        width: 100%;
+    }
+    .sec-shade{
+        background-color: rgba(0, 0, 0, 0.7);
+       padding: 3%;
+        
+        
+       
+    }
+    form{
+        background-color: white;
+        padding: 3%;
+        border-radius: 15px;
+        margin-top: 50px;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    
+    }
+    .details{
+        color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .details p{
+        margin-top: 5%;
+        text-align: justify;
+    }
+    .btn1{
+        background-color: red;
+        color: white;
+        padding:3%;
+        width: 40%;
+        border: none;
+        border-radius: 5px;
+    }
+    .carousel img{
+        height: 250px;
+    }
+    footer{
+         padding: 7%;
+        background-color: red;
+        color: white;
+        padding-bottom: 17%;
+    }
+    .time{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer h4{
+        margin-top: 7%;
+    }
+    .end{
+        background-color:black;
+        color:white;
+        text-align:center;
+        padding: 1%;
+        font-weight: bold;
+        font-size:20px;
+    }
+}
